@@ -1,0 +1,109 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Script Game ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+  Name = "Script Blox Fruit",
+  Icon = "rbxassetid://4483345998",
+  PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+  Name = "Blox Fruit"
+})
+
+Tab:AddButton({
+  Name = "FTS Hub",
+  Callback = function()
+          print("button pressed")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tulam2000/FTS-HUB/main/FTS%20x%20Hub')))()
+    end    
+})
+
+OrionLib:Init()
+
+Tab:AddButton({
+  Name = "Cokka Hub",
+  Callback = function()
+          print("button pressed")
+      loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+    end    
+})
+
+Tab:AddButton({
+  Name = "MTriet Hub",
+  Callback = function()
+          print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+    end    
+})
+
+Tab:AddButton({
+  Name = "Dynamic Hub",
+  Callback = function()
+          print("button pressed")
+    loadstring(Game:HttpGetAsync("https://Dynamic.xcodehoster.com/loader.lua"))()
+    end    
+})
+
+Tab:AddButton({
+  Name = "Master Hub",
+  Callback = function()
+          print("button pressed")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/onepicesenpai/onepicesenpai/main/onichanokaka'))()
+    end    
+})
+
+Tab:AddButton({
+  Name = "Ganteng Hub",
+  Callback = function()
+          print("button pressed")
+      loadstring(game:HttpGet("https://isnahamzahpastebin.tech/sepuh/puh_01.lua"))()
+    end    
+})
+
+Tab:AddButton({
+  Name = "Sonic Hub",
+  Callback = function()
+          print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Tulam2000/churoblox/main/Protected_4167572142643345.lua.txt"))()
+    end    
+})
+
+Tab:AddButton({
+  Name =  " MinGaming Hub",
+  Callback = function()
+          print("button pressed")
+      loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Premium-Viet.lua")()
+    end    
+})
+
+Tab:AddButton({
+  Name = "Grape Hub",
+  Callback = function()
+          print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Grape-Hub/main/Grape%20Hub%20V2.1"))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+  Name = "Blade Ball",
+  Icon = "rbxassetid://4483345998",
+  PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "Visua V5 God",
+  Callback = function()
+          print("button pressed")
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/DevTravDYT/dsaaswadfeszad/main/Testt'))() 
+    end    
+})
+
+Tab:AddButton({
+  Name = "Bedol Hub",
+  Callback = function()
+          print("button pressed")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+    end    
+})
